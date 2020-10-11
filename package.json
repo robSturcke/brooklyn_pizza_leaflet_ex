@@ -18,7 +18,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "build": "env-cmd -f ./.env.shared react-scripts build",
+    "build": "react-scripts build",
     "develop": "npm start",
     "start": "env-cmd -f ./.env.shared react-scripts start"
   },
