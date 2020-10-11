@@ -1,20 +1,26 @@
 {
-  "name": "maps-react",
+  "name": "best-pizza-react-maps",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.5.2",
+    "env-cmd": "^10.1.0",
+    "leaflet": "^1.6.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-leaflet": "^2.7.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "env-cmd -f ./.env.shared react-scripts build",
+    "develop": "npm start",
+    "start": "env-cmd -f ./.env.shared react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"

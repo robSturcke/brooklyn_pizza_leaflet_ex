@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juliana's",
+        "delivery": true,
+        "takeout": true,
+        "noContact": true,
+        "outdoorSeating": true,
+        "deliveryRadius": 8000,
+        "description": "Classic & specialty pies from a coal-fired oven in a modern space by pizza legend Patsy Grimaldi.",
+        "phone": "(718) 596-6700",
+        "website": "https://julianaspizza.com/menus",
+        "tags": ["Pizza", "Beer", "Wine", "Coffee", "Vegetarian"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.993499, 40.702812]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Di Fara",
+        "delivery": true,
+        "takeout": true,
+        "noContact": true,
+        "outdoorSeating": false,
+        "deliveryRadius": 8000,
+        "description": "Storied Brooklyn-based pizzeria set up in an airy food hall dishing out signature pies & slices.",
+        "phone": "(929) 294-9464",
+        "website": "https://www.difarapizzany.com/",
+        "tags": ["Pizza"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.959991, 40.687554]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vinnie's Pizza",
+        "delivery": true,
+        "takeout": true,
+        "noContact": true,
+        "outdoorSeating": false,
+        "deliveryRadius": 9000,
+        "description": "Pizza Delivery",
+        "phone": "(718) 645-2401",
+        "website": "Doesn't exist on this planet",
+        "tags": ["Pizza"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.973559, 40.614147]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giuseppina's Brick Oven Pizza",
+        "delivery": true,
+        "takeout": true,
+        "noContact": true,
+        "outdoorSeating": false,
+        "deliveryRadius": 9000,
+        "description": "Cozy brick-oven pizzeria serving thin-crust pies with ample toppings & calzones, plus beer & wine.",
+        "phone": "(718) 499-5052",
+        "website": "https://www.giuseppinasbrickovenpizza.com/",
+        "tags": ["Pizza", "Vegetarian", "Happy Hour Drinks"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.990562, 40.660453]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "L&B Spumoni Gardens",
+        "delivery": true,
+        "takeout": true,
+        "noContact": true,
+        "outdoorSeating": true,
+        "deliveryRadius": 9000,
+        "description": "Sicilian square pizza & ice cream from an old-school Italian counter that opened in 1939.",
+        "phone": "(718) 449-1230",
+        "website": "http://www.spumonigardens.com/",
+        "tags": ["Pizza", "Beer", "Wine", "Coffee", "Vegetarian"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.981306, 40.594759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paulie Gee's",
+        "delivery": false,
+        "takeout": true,
+        "noContact": true,
+        "outdoorSeating": true,
+        "deliveryRadius": 9000,
+        "description": "Gourmet pizzeria where the wood-fired pies are topped with unusual, locally sourced ingredients.",
+        "phone": "(347) 987-3747",
+        "website": "http://www.pauliegee.com/",
+        "tags": ["Pizza", "Vegetarian", "Coffee"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.981306, 40.594759]
+      }
+    }
+  ]
+}
