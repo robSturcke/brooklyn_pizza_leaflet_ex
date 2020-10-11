@@ -46,6 +46,31 @@ header {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    nav.navbar {
+      .navbar-brand {
+        .header_logo {
+          width: 250px;
+        }
+      }
+
+      button.navbar-toggler {
+        border: 1px solid $secondary;
+        &:active,
+        &:focus {
+          outline-color: $secondary;
+        }
+
+        .icon {
+          width: 32px;
+          fill: $primary;
+        }
+      }
+    }
+  }
+}
+
 .loc_btn_wrap {
   z-index: 99999;
   position: absolute;
