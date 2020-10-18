@@ -12,7 +12,7 @@ function Header() {
   return (
     <header>
       <Navbar expand="sm">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <Logo baseLayer="header_logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleClick}>
